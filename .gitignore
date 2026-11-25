@@ -1,0 +1,83 @@
+# ==========================================
+# 🔐 SEGURIDAD Y ENTORNO (¡Nunca subir!)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+!.env.example
+
+# ==========================================
+# ☕ JAVA / MAVEN / HIBERNATE
+# ==========================================
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# ==========================================
+# 🟢 NODE / REACT / NESTJS / TYPESCRIPT
+# ==========================================
+node_modules/
+dist/
+build/
+.next/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# 🐘 PHP / COMPOSER (Proyecto Vuelos/TWD)
+# ==========================================
+vendor/
+var/cache/
+var/log/
+.phpunit.result.cache
+
+# ==========================================
+# 💜 C# / .NET / ASP.NET (Proyecto IPS)
+# ==========================================
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+
+# ==========================================
+# 🐍 PYTHON (Proyecto GPS)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# ==========================================
+# ⚙️ C / C++
+# ==========================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# ==========================================
+# 💻 IDEs Y SISTEMA OPERATIVO
+# ==========================================
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+desktop.ini
